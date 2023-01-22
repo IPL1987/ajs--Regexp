@@ -40,3 +40,5 @@
 
 Не забудьте написать unit-тесты, которые обеспечивают 100% покрытие функций и классов, которые вы тестируете.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/qfxhnrlnmv3uwnlg/branch/main?svg=true)](https://ci.appveyor.com/project/IPL1987/ajs-regexp/branch/main)
+
