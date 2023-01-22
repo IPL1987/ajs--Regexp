@@ -1,0 +1,50 @@
+{
+  "name": "ajs--regexp",
+  "version": "1.0.0",
+  "description": "Домашнее задание к лекции «Регулярные выражения»",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "preshow:coverage": "npm run coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.4.6",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.4.7",
+    "mini-css-extract-plugin": "^2.5.2",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.16.5",
+    "core-js": "^3.20.3",
+    "save-dev": "^0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IPL1987/ajs--Regexp.git"
+  },
+  "author": "IPL1987",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IPL1987/ajs--Regexp/issues"
+  },
+  "homepage": "https://github.com/IPL1987/ajs--Regexp#readme"
+}
